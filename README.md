@@ -42,6 +42,9 @@ I you are interested to a grid directive that provide a way more feature look at
 
 ```resizable``` (default: **true**): Whether or not column is resizable.
 
+```width```(default: **'*'**): Sets the width of the column. Can be a fixed width in pixels as an int (42), string px('42px'), percentage string ('42%'), weighted asterisks (width divided by total number of *'s is all column definition widths)
+
+
 **dataSource Options:**
 
 ```local``` (default: **undefined**): Data being provided localy by the controller.
@@ -50,7 +53,9 @@ I you are interested to a grid directive that provide a way more feature look at
 
 
 **dataSource.remote Options:**
+
 ```url``` (default: **undefined**): Url used to retrieve remote data.
+
 ```parameters``` (default: **undefined**): Parameters used to retrieve remote data.
 
 
