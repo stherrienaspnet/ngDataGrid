@@ -42,7 +42,7 @@ I you are interested to a grid directive that provide a way more feature look at
 
 ```resizable``` (default: **true**): Whether or not column is resizable.
 
-```width```(default: **'*'**): Sets the width of the column. Can be a fixed width in pixels as an int (42), string px('42px'), percentage string ('42%'), weighted asterisks (width divided by total number of *'s is all column definition widths)
+```width``` (default: **"*"**): Sets the width of the column. Can be a fixed width in pixels as an int (42), string px('42px'), percentage string ('42%'), weighted asterisks (width divided by total number of *'s is all column definition widths).
 
 
 **dataSource Options:**
@@ -58,6 +58,9 @@ I you are interested to a grid directive that provide a way more feature look at
 
 ```parameters``` (default: **undefined**): Parameters used to retrieve remote data.
 
+```pooling``` (default: **false**): Whether or not the pooling is active.
+
+```poolingRate``` (default: **30000**): Polling rate used to retrieve remote data when pooling is active.
 
 
 
