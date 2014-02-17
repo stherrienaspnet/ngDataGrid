@@ -24,6 +24,8 @@ I you are interested to a grid directive that provide a way more feature look at
 
 ```enableColumnResize``` (default: **false**): Enable or disable resizing of columns
 
+```primaryKey```(default: **undefined**): Primary Key field name used for tracking selector [**required**]
+
 ```columnDefs:``` (default: **undefined**): Definitions of columns as an array [], if not defined columns are auto-generated.
 
 **ColumnDefs Options:**
