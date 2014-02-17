@@ -8,13 +8,13 @@ I you are interested to a grid directive that provide a way more feature look at
 
 List of grid features with their default value
 ```
-headerRowHeight: (default value: 25), used to define header height
-rowHeight: (default value: 26), used to define row height
-footerRowHeight: (default value: 32), used to define footer height
-enableSorting: (default:true), used to enable or disable sorting on the grid
-enablePaging: (default: false), used to enable or disable pagind on the grid
-multiSelect: (default: true), Set this to false if you only want one item selected at a time
-keepLastSelected: (default: true), Prevent unselections when in single selection mode
+headerRowHeight (default: 25): Used to define header height
+rowHeight (default: 26): Used to define row height
+footerRowHeight (default: 32): Used to define footer height
+enableSorting (default: true):  Used to enable or disable sorting on the grid
+enablePaging (default: false): Used to enable or disable pagind on the grid
+multiSelect (default: true): Set this to false if you only want one item selected at a time
+keepLastSelected (default: true): Prevent unselections when in single selection mode
 
 
 ```
