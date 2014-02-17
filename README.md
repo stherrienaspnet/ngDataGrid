@@ -6,6 +6,7 @@ Angular Data Grid
 As i wanted to learn Angular.js and need to focus on my requirement, so i decided to build my own data grid directive mainly base on nice feature list provided by ng-grid directive.
 I you are interested to a grid directive that provide a way more feature look at the nice directive ng-grid!
 
+
 **gridOptions:**
 
 ```headerRowHeight``` (default: **25**): The height of the header row in pixels.
@@ -28,7 +29,8 @@ I you are interested to a grid directive that provide a way more feature look at
 
 ```columnDefs:``` (default: **undefined**): Definitions of columns as an array [], if not defined columns are auto-generated.
 
-**columnDefs Options:**
+
+**gridOptions.columnDefs Options:**
 
 ```field``` (default: **''**): The string name of the property in your data model you want that column to represent.
 
@@ -42,7 +44,14 @@ I you are interested to a grid directive that provide a way more feature look at
 
 **dataSource Options:**
 
-```local``` (default: **undefined**): Data being provided localy by the controller
+```local``` (default: **undefined**): Data being provided localy by the controller.
+
+```remote```(default: **undefined**): Date being provided remotly by ajax call.
+
+
+**dataSource.remote Options:**
+```url``` (default: **undefined**): Url used to retrieve remote data.
+```parameters``` (default: **undefined**): Parameters used to retrieve remote data.
 
 
 
