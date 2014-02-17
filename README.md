@@ -8,15 +8,15 @@ I you are interested to a grid directive that provide a way more feature look at
 
 List of grid features with their default value
 
-```headerRowHeight``` (Default: 25): Used to define header height
+```headerRowHeight``` (Default: 25): The height of the header row in pixels.
 
-```rowHeight``` (Default: 26): Used to define row height
+```rowHeight``` (Default: 26): Row height of rows in grid.
 
-```footerRowHeight``` (Default: 32): Used to define footer height
+```footerRowHeight``` (Default: 32): Defining the height of the footer in pixels.
 
-```enableSorting``` (Default: true):  Used to enable or disable sorting on the grid
+```enableSorting``` (Default: true):  Enables or disables sorting in grid.
 
-```enablePaging``` (Default: false): Used to enable or disable pagind on the grid
+```enablePaging``` (Default: false): Enables the client-side paging feature
 
 ```multiSelect``` (Default: true): Set this to false if you only want one item selected at a time
 
