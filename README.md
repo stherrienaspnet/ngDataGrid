@@ -3,8 +3,7 @@ ngDataGrid
 
 Angular Data Grid
 
-As i wanted to learn Angular.js and need to focus on my requirement, so i decided to build my own data grid directive mainly base on nice feature list provided by ng-grid directive.
-I you are interested to a grid directive that provide a way more feature look at the nice directive ng-grid!
+Since I wanted to learn Angular.js, but still needed to focus on the requirements of my job’s project, I decided to build my own simple data grid directive mainly based on the features provided by ng-grid (http://angular-ui.github.io/ng-grid/). If you are interested in a directive with way more features, you can check out ng-grid.
 
 
 **gridOptions:**
