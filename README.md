@@ -41,7 +41,7 @@ Since I wanted to learn Angular.js, but still needed to focus on the requirement
 
 ```resizable``` (default: **true**): Whether or not column is resizable.
 
-```width``` (default: **"*"**): Sets the width of the column. Can be a fixed width in pixels as an int (42), string px('42px'), percentage string ('42%'), weighted asterisks (width divided by total number of *'s is all column definition widths).
+```width``` (default: **"*"**): Sets the width of the column. Can be a fixed width in pixels as an int (42), string px('42px'), percentage string ('42%'), weighted asterisks (width divided by total number of star 's is all column definition widths). [**at this time we need to specify a width**]
 
 
 **dataSource Options:**
