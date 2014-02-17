@@ -62,6 +62,14 @@ Since I wanted to learn Angular.js, but still needed to focus on the requirement
 ```poolingRate``` (default: **30000**): Polling rate used to retrieve remote data when pooling is active.
 
 
+**gridOptions.pagingOptions Options:**
+
+```pageSizes``` (default: **[250, 500, 1000]**): List of available page sizes.
+
+```pageSize``` (default: **250**): List of available page sizes.
+
+```currentPage``` (default: **1**):  Current page.
+
 
 
 
