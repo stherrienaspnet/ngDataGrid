@@ -34,6 +34,8 @@ Since I wanted to learn Angular.js, but still needed to focus on the requirement
 
 **gridOptions.columnDefs Options:**
 
+```cellClass``` (default: **''**): Appends a css class for the column cells.
+
 ```field``` (default: **''**): The string name of the property in your data model you want that column to represent.
 
 ```displayName``` (default: **''**): Sets the pretty display name of the column.
