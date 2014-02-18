@@ -9,6 +9,8 @@ Since I wanted to learn Angular.js, but still needed to focus on the requirement
 
 **gridOptions:**
 
+```headerClass``` (default: **''**): Appends a css class for the column header.
+
 ```headerRowHeight``` (default: **25**): The height of the header row in pixels.
 
 ```rowHeight``` (default: **26**): Row height of rows in grid.
