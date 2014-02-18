@@ -27,7 +27,7 @@ Since I wanted to learn Angular.js, but still needed to focus on the requirement
 
 ```primaryKey```(default: **undefined**): Primary Key field name used for tracking selector [**required**]
 
-```columnDefs:``` (default: **undefined**): Definitions of columns as an array [], if not defined columns are auto-generated.
+```columnDefs``` (default: **undefined**): Definitions of columns as an array [], if not defined columns are auto-generated.
 
 
 **gridOptions.columnDefs Options:**
