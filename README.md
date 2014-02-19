@@ -20,6 +20,8 @@ Since I wanted to learn Angular.js, but still needed to focus on the requirement
 
 ```showFooter``` (default: **false**): Show or hide the footer the footer is disabled by default.
 
+```footerTemplate``` (default: **''**): Define a footer template for customization.
+
 ```footerRowHeight``` (default: **32**): Defining the height of the footer in pixels.
 
 ```enableSorting``` (default: **true**):  Enables or disables sorting in grid.
