@@ -18,6 +18,8 @@ Since I wanted to learn Angular.js, but still needed to focus on the requirement
 
 ```rowHeight``` (default: **26**): Row height of rows in grid.
 
+```showFooter``` (default: **false**): Show or hide the footer the footer is disabled by default.
+
 ```footerRowHeight``` (default: **32**): Defining the height of the footer in pixels.
 
 ```enableSorting``` (default: **true**):  Enables or disables sorting in grid.
