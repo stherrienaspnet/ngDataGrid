@@ -82,6 +82,7 @@ Since I wanted to learn Angular.js, but still needed to focus on the requirement
 **gridOptions.sortOptions Options:**
 
 ```direction``` (default: **''**):  Sort directions ['asc', 'desc'], directions are case-insensitive
+
 ```field``` (default: **''**):  Sort field, there is no support for multiple field yet!
 
 
