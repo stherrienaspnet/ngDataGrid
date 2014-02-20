@@ -82,6 +82,7 @@ Since I wanted to learn Angular.js, but still needed to focus on the requirement
 
 ```currentPage``` (default: **1**):  Current page.
 
+*Page size selector is visible when there is more than one size defined into [pageSizes] parameter.
 
 **gridOptions.sortOptions Options:**
 
