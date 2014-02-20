@@ -40,9 +40,14 @@ Since I wanted to learn Angular.js, but still needed to focus on the requirement
 
 ```columnDefs``` (default: **undefined**): Definitions of columns as an array [], if not defined columns are auto-generated.
 
-```headerCellTemplate``` (default: **<span ng-show="!isSortable(column)">{{ column.displayName }}</span>
-<a ng-show="isSortable(column)" ng-click="sortBy(column)">{{ column.displayName }}<span class="ng-data-grid-sort-icon"></span></a><span ng-show="isResizable(column)" ng-style="{height:headerRowHeight-10}" class="ng-data-grid-column-resizer" ng-mousedown="onMousedown($event, $index)"></span>**): Sets the template for the column header cell.
+```headerCellTemplate``` : Sets the template for the column header cell.
 
+(default: 
+**```<span ng-show="!isSortable(column)">{{ column.displayName }}</span>```**
+**```<a ng-show="isSortable(column)" ng-click="sortBy(column)">{{ column.displayName }}```**
+**```<span class="ng-data-grid-sort-icon"></span></a><span ng-show="isResizable(column)"```**
+**```ng-style="{height:headerRowHeight-10}" class="ng-data-grid-column-resizer"```**
+**```ng-mousedown="onMousedown($event, $index)"></span>```**)
 
 **gridOptions.columnDefs Options:**
 
