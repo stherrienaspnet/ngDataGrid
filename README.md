@@ -3,6 +3,8 @@ ngDataGrid
 
 Angular Data Grid
 
+![alt tag](https://raw.github.com/stherrienaspnet/ngDataGrid/blob/master/ngDataGrid/ngDataGridDemo.png)
+
 Since I wanted to learn Angular.js, but still needed to focus on the requirements of my job’s project, I decided to build my own simple data grid directive mainly based on the features provided by ng-grid (http://angular-ui.github.io/ng-grid/). If you are interested in a directive with way more features, you can check out ng-grid.
 
 *One commun mistake is to forget to specify a width parameter to this directive who can lead to layout issue.
