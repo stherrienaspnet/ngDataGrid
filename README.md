@@ -57,10 +57,12 @@ Since I wanted to learn Angular.js, but still needed to focus on the requirement
 
   Usage sample:
   
-           cellStyle: alarmColumnCustomStyle
-           function alarmColumnCustomStyle(row) {
-               return { color: '#FF00FF', backgroundColor: '#00FF00'};
-           }
+    cellStyle: { color: '#FF00FF', backgroundColor: '#00FF00'}
+    OR
+    cellStyle: alarmColumnCustomStyle
+    function alarmColumnCustomStyle(row) {
+      return { color: '#FF00FF', backgroundColor: '#00FF00'};
+    }
            
 
 
