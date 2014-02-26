@@ -59,7 +59,7 @@ Since I wanted to learn Angular.js, but still needed to focus on the requirement
   
            cellStyle: alarmColumnCustomStyle
            function alarmColumnCustomStyle(row) {
-               return { color: row.alarmForeColor, backgroundColor: row.alarmBackColor };
+               return { color: '#FF00FF', backgroundColor: '#00FF00'};
            }
            
 
