@@ -63,7 +63,7 @@ Since I wanted to learn Angular.js, but still needed to focus on the requirement
 
 ```resizable``` (default: **true**): Whether or not column is resizable.
 
-```excludeFromSelection```(default: **false**): Whether or not column is exluded from selection.
+```excludeFromSelection```(default: **false**): Whether or not column is exlude from selection.
 
 ```cellTemplate``` (default: **{{row[column.field]}}**): Sets the cell template for the column.
 
