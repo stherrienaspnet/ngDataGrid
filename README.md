@@ -105,7 +105,11 @@ Since I wanted to learn Angular.js, but still needed to focus on the requirement
 ```field``` (default: **''**):  Sort field, there is no support for multiple field yet!
 
 
+**Methods:**
 
+```clearSelection()```: Clear selected rows.
+
+```forceRefresh()```: Force data source refresh.
 
 
 
