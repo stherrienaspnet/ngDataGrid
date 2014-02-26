@@ -53,6 +53,17 @@ Since I wanted to learn Angular.js, but still needed to focus on the requirement
 
 ```cellClass``` (default: **''**): Appends a css class for the column cells.
 
+```cellStyle``` (default: **undefined**): Allow to apply style to a cell using a function of object. 
+
+  Usage sample:
+  
+           cellStyle: alarmColumnCustomStyle
+           function alarmColumnCustomStyle(row) {
+               return { color: row.alarmForeColor, backgroundColor: row.alarmBackColor };
+           }
+           
+
+
 ```field``` (default: **''**): The string name of the property in your data model you want that column to represent.
 
 ```displayName``` (default: **''**): Sets the pretty display name of the column.
