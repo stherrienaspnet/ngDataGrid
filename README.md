@@ -100,6 +100,8 @@ Since I wanted to learn Angular.js, but still needed to focus on the requirement
 
 ```poolingRate``` (default: **30000**): Polling rate used to retrieve remote data when pooling is active.
 
+```autoStart``` (default: **false**): Start poolling automatically.
+
 
 **gridOptions.pagingOptions Options:**
 
@@ -124,5 +126,7 @@ Since I wanted to learn Angular.js, but still needed to focus on the requirement
 
 ```forceRefresh()```: Force data source refresh.
 
+```startPooling()```: Start data pooling.
 
+```stopPooling()```: Stop data pooling.
 
