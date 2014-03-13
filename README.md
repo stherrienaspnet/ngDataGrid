@@ -126,7 +126,7 @@ Since I wanted to learn Angular.js, but still needed to focus on the requirement
 
 ```forceRefresh()```: Force data source refresh.
 
-```startPooling()```: Start data pooling.
+```startPooling()```: Start data source pooling.
 
-```stopPooling()```: Stop data pooling.
+```stopPooling()```: Stop data source pooling.
 
