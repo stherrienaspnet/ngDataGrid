@@ -122,7 +122,9 @@ Since I wanted to learn Angular.js, but still needed to focus on the requirement
 
 **Methods:**
 
-```clearSelection()```: Clear selected rows.
+```deselectAll()```: Clear selected rows.
+
+```selectAll()```: Select all rows.
 
 ```forceRefresh()```: Force data source refresh.
 
