@@ -107,13 +107,14 @@ Since I wanted to learn Angular.js, but still needed to focus on the requirement
 
 ```pageSizes``` (default: **[250, 500, 1000]**): List of available page sizes.
 
+*Page size selector is visible when there is multiple size defined into [pageSizes] parameter.
+
 ```pageSize``` (default: **250**): List of available page sizes.
 
 ```currentPage``` (default: **1**):  Current page.
 
-```autoPage``` (default: **false**):  Automatic page size calculation base on available space for rows. This will override pageSize value if defined.
+```autoPage``` (default: **false**):  Automatic page size calculation base on available space for rows. This will override pageSize value.
 
-*Page size selector is visible when there is multiple size defined into [pageSizes] parameter.
 
 **gridOptions.sortOptions Options:**
 
