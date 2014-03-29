@@ -125,7 +125,7 @@ Since I wanted to learn Angular.js, but still needed to focus on the requirement
 
 **Methods:**
 
-```deselectAll()```: Clear selected rows.
+```deselectAll()```: Deselect all rows.
 
 ```selectAll()```: Select all rows.
 
