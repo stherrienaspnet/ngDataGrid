@@ -135,5 +135,6 @@ Since I wanted to learn Angular.js, but still needed to focus on the requirement
 
 ```stopPooling()```: Stop data source pooling.
 
-```getTotalItemsCount()```: Getting total items count.
+```getTotalItemsCount()```: Return total items count.
 
+```getSelectedItems()```: Return selected items.
