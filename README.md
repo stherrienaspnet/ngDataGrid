@@ -18,7 +18,7 @@ Since I wanted to learn Angular.js, but still needed to focus on the requirement
 
 ```headerRowHeight``` (default: **25**): The height of the header row in pixels.
 
-```rowHeight``` (default: **26**): Row height of rows in grid.
+```rowHeight``` (default: **25**): Row height of rows in grid.
 
 ```showFooter``` (default: **false**): Show or hide the footer the footer is disabled by default.
 
