@@ -123,6 +123,12 @@ Since I wanted to learn Angular.js, but still needed to focus on the requirement
 ```field``` (default: **''**):  Sort field, there is no support for multiple field yet!
 
 
+**gridOptions.filterOptions Options:**
+
+```filterText``` (default: **''**):  Filter records based on text occurence, text is case-insensitive.
+
+```filterFields``` (default: **[]**):  Fields used when filtering records. 
+
 **Methods:**
 
 ```deselectAll()```: Deselect all rows.
