@@ -154,9 +154,9 @@ Since I wanted to learn Angular.js, but still needed to focus on the requirement
 
 **Events:**
 
-```gridOptions.onBeforeSelectionChange(row, true) ```: Current row, selected state.  
+```onBeforeSelectionChange(row, true) ```: Current row, selected state.  
 If the function return false this will prevent row selection.
 
-```gridOptions.onAfterSelectionChange(row, true)```: Current row, selected state.
+```onAfterSelectionChange(row, true)```: Current row, selected state.
 
-```gridOptions.onRowFiltering(row)```: If the function return false this will prevent row insertion
+```onRowFiltering(row)```: If the function return false this will prevent row insertion
