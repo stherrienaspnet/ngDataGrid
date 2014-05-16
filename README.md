@@ -125,9 +125,16 @@ Since I wanted to learn Angular.js, but still needed to focus on the requirement
 
 **gridOptions.filterOptions Options:**
 
-```filterText``` (default: **''**):  Filter records based on text occurence, text is case-insensitive.
+```dataFilter``` (default: **undefined**):  Filter records based on field specific data.
 
-```filterFields``` (default: **[]**):  Fields used when filtering records. 
+```searchFilter``` (default: **undefined**):  Filter records based on text keyword. 
+
+**gridOptions.filterOptions.searchFilter Options:**
+
+```searchFields``` (default: **[ ]**):  Fields used when searching records.
+
+```searchText``` (default: **[]**):  Text used when searching records. 
+
 
 **Methods:**
 
@@ -144,3 +151,5 @@ Since I wanted to learn Angular.js, but still needed to focus on the requirement
 ```getTotalItemsCount()```: Return total items count.
 
 ```getSelectedItems()```: Return selected items.
+
+**Events:**
