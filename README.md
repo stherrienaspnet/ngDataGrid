@@ -152,6 +152,8 @@ Since I wanted to learn Angular.js, but still needed to focus on the requirement
 
 ```getSelectedItems()```: Return selected items.
 
+```clearSelection()```: Clear selected items.
+
 **Events:**
 
 ```onBeforeSelectionChange(row, true) ```: Current row, selected state.  
