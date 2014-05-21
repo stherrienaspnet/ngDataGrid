@@ -162,3 +162,7 @@ If the function return false this will prevent row selection.
 ```onAfterSelectionChange(row, true)```: Current row, selected state.
 
 ```onRowFiltering(row)```: If the function return false this will prevent row insertion
+
+
+```onPageRendered(rows)```: Current page rows...
+
