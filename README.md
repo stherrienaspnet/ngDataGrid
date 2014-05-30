@@ -154,6 +154,10 @@ Since I wanted to learn Angular.js, but still needed to focus on the requirement
 
 ```clearSelection()```: Clear selected items.
 
+```selectByKey(['key1', 'key2'])```: Select rows by key 
+
+```deselectByKey(['key1', 'key2'])```: Deselect rows by key
+
 **Events:**
 
 ```onBeforeSelectionChange(row, true) ```: Current row, selected state.  
