@@ -170,5 +170,5 @@ If the function return false this will prevent row selection.
 
 ```onPageRendered(rows)```: Current page rows...
 
-```onGridRendered()```: Grid Render Event
+```onGridDatabound()```: Grid databound event
 
