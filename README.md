@@ -156,6 +156,9 @@ Since I wanted to learn Angular.js, but still needed to focus on the requirement
 
 ```selectByKey(['key1', 'key2'])```: Select rows by key 
 
+```showWaitIndicator()```: Show wait indicator (mainly used for local data source)
+
+```hideWaitIndicator()```: Hide wait indicator (mainly used for local data source)
 
 **Events:**
 
@@ -171,3 +174,4 @@ If the function return false this will prevent row selection.
 
 ```onGridDatabound()```: Grid databound event
 
+```onGridInitialized()```: Grid initialized event
