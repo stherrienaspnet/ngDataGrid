@@ -176,4 +176,4 @@ If the function return false this will prevent row selection.
 
 ```onGridInitialized()```: Grid initialized event
 
-```onCellDatabind(value)```: Grid cell binding event, allow user to decorate or transform value before display
+```onCellDatabind(row, column, value)```: Grid cell binding event, allow user to decorate or transform value before display
