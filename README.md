@@ -96,6 +96,8 @@ Since I wanted to learn Angular.js, but still needed to focus on the requirement
 
 ```parameters``` (default: **undefined**): Parameters used to retrieve remote data.
 
+```dataProperty``` (default: **undefined**): Parameters used to specify path to retrieve data.
+
 ```pooling``` (default: **false**): Whether or not the pooling is active.
 
 ```poolingRate``` (default: **30000**): Polling rate used to retrieve remote data when pooling is active.
