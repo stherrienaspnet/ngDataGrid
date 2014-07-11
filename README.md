@@ -134,7 +134,12 @@ ex: "viewModel.Customers"
 
 **gridOptions.filterOptions.searchFilter Options:**
 
-```searchFields``` (default: **[ ]**):  Fields used when searching records.
+```searchFields``` (default: **[ ]**):  Fields used when searching records. When * is used all visible fields are added.
+
+Usage sample: 
+
+searchFields : ['name', 'age']
+searchFields : ['*']
 
 ```searchText``` (default: **[]**):  Text used when searching records. 
 
