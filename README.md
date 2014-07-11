@@ -96,7 +96,7 @@ Since I wanted to learn Angular.js, but still needed to focus on the requirement
 
 ```parameters``` (default: **undefined**): Parameters used to retrieve remote data.
 
-```dataProperty``` (default: **undefined**): Parameters used to specify path to retrieve data.
+```dataProperty``` (default: **data**): Parameters used to specify path to retrieve data.
 ex: "viewModel.Customers"
 
 ```pooling``` (default: **false**): Whether or not the pooling is active.
