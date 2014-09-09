@@ -146,6 +146,8 @@ searchFields : ['*']
 
 **Methods:**
 
+```exportToCsv()```: Export the content of the grid to csv.
+
 ```deselectAll()```: Deselect all rows.
 
 ```selectAll()```: Select all rows.
