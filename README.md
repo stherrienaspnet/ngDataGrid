@@ -83,7 +83,7 @@ Since I wanted to learn Angular.js, but still needed to focus on the requirement
 ```sortFunction``` (default: **undefined**): Sets a custom sort function for the column. ex 
 downtimeComparator(timespan1, timespan2)
 {
- return timespan1InSeconds(timespan1) <= timespan2InSeconds(timespan2);
+ return timespanInSeconds(timespan1) <= timespanInSeconds(timespan2);
 }
 
 ```width``` (default: **"*"**): Sets the width of the column. Can be a fixed width in pixels ('42px'), percentage string ('42%'), weighted asterisks (width divided by total number of star 's is all column definition widths). 
