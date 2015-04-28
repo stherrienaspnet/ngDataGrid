@@ -11,6 +11,7 @@ Since I wanted to learn Angular.js, but still needed to focus on the requirement
 
 *If you plan to mix fixed (px) and variable width (%), make sure variable summation is lower than 100%.
 
+**Usage:**
 ```<div ng-data-grid="gridOptions" height="gridDimension.gridHeight" width="gridDimension.gridWidth" template-url="/app/template.html"></div>```
 ```template-url is optional, there is a default template file used.```
 
