@@ -25,6 +25,10 @@ Since I wanted to learn Angular.js, but still needed to focus on the requirement
 
 ```showFooter``` (default: **false**): Show or hide the footer the footer is disabled by default.
 
+```headerTemplate``` (default: **~/app/src/scripts/directives/ng-data-grid/templates/ng-data-grid-default-header.html'**): Define a header template for customization.
+
+```bodyTemplate``` (default: **~/app/src/scripts/directives/ng-data-grid/templates/ng-data-grid-default-body.html**): Define a body template for customization.
+
 ```footerTemplate``` (default: **''**): Define a footer template for customization.
 
 ```footerRowHeight``` (default: **32**): Defining the height of the footer in pixels.
