@@ -13,8 +13,7 @@ Since I wanted to learn Angular.js, but still needed to focus on the requirement
 
 **Usage:**
 
-```<div ng-data-grid="gridOptions" height="gridDimension.gridHeight" width="gridDimension.gridWidth" template-url="/app/template.html"></div>```
-```template-url is optional, there is a default template file used.```
+```<div ng-data-grid="gridOptions" height="gridDimension.gridHeight" width="gridDimension.gridWidth"></div>```
 
 **gridOptions:**
 
