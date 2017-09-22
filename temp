@@ -1,0 +1,48 @@
+app.directive('ngCapture', ['$document', '$rootScope', '$interval', function($document, $rootScope, $interval) {
+    return {
+        link: function(scope) {
+
+            function onMouseUp(event) {
+                $rootScope.$broadcast('ngCapture.onMouseUp', {
+                    event: event
+                });
+            }
+
+            function onMouseClick(event) {
+                $rootScope.$broadcast('ngCapture.onMouseClick', {
+                    event: event
+                });
+            }
+
+            function onKeyUp(event) {
+                $rootScope.$broadcast('ngCapture.onKeyUp', {
+                    event: event
+                });
+            }
+
+            function onKeyDown(event) {
+                $rootScope.$broadcast('ngCapture.onKeyDown', {
+                    event: event
+                });
+            }
+
+            $interval(function() {
+                console.log('specialExtend');
+                onMouseUp(null)
+            }, 15000);
+
+            //Protection
+            $document.off('click', onMouseClick);
+            $document.off('keyup', onKeyUp);
+            $document.off('keydown', onKeyDown);
+            $document.off('mouseup', onMouseUp);
+
+            $document.on('click', onMouseClick);
+            $document.on('keyup', onKeyUp);
+            $document.on('keydown', onKeyDown);
+            $document.on('mouseup', onMouseUp);
+
+
+        }
+    };
+}]);
